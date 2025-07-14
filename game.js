@@ -67,7 +67,7 @@ const showWinner = (winner) => {
         xWins++;
     }
 
-    msg.innerText = `Congratulations, ${winner} wins! 😎 (O: ${oWins} | X: ${xWins})`;
+    msg.innerText = `Congratulations, You win!😎👩 (O: ${oWins} | X: ${xWins})`;
     msgcon.classList.remove('hide');
     disableboxes();
     updateScore();
